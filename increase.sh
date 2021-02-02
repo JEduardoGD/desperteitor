@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #minutos para alcanzar e volument total
-TOTAL_TIME=10;
+TOTAL_TIME=2
 #ciclos para alcanzar el volumen total
-TOTAL_CYCLES=50
+TOTAL_CYCLES=20
 #volumen minimo
 INITIAL_VOLUME=30
 #volumen máximo
