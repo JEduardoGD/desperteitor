@@ -1,0 +1,11 @@
+[Unit]
+Description=Desperteitor increase service
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/desperteitor
+ExecStart=/home/pi/desperteitor/increase.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
