@@ -1,0 +1,11 @@
+[Unit]
+Description=Desperteitor play service
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/desperteitor
+ExecStart=/home/pi/desperteitor/play.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
