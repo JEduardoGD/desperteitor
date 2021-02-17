@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #minutos para alcanzar e volument total
-TOTAL_TIME=3
+TOTAL_TIME=5
 #minutos para quedarse encendido despues de alcanzar volumen maximo
 TIME_IN_MAX=5
 #ciclos para alcanzar el volumen total
@@ -9,7 +9,7 @@ TOTAL_CYCLES=25
 #volumen minimo
 INITIAL_VOLUME=30
 #volumen máximo
-FINAL_VOLUME=100
+FINAL_VOLUME=85
 TIME_IN_MAX_SECONDS=$((TIME_IN_MAX * 60))
 
 #segundos para alcanzar el volument total
