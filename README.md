@@ -6,13 +6,16 @@ Iniciar, detener y saber el estatus del incrementador de volumen:
 sudo service increase start
 sudo service increase stop
 sudo service increase status
+```
 
 Iniciar, detener y saber el estatus del reproductor de musica
 ```bash
- sudo service play start
- sudo service play stop
- sudo service play status
+sudo service play start
+sudo service play stop
+sudo service play status
+```
 
 Incrementar el volumen al 90%
 ```bash
 /usr/bin/amixer -c 0 sset Headphone,0 90% > /dev/null
+```
