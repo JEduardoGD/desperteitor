@@ -9,7 +9,7 @@ TOTAL_CYCLES=25
 #volumen minimo
 INITIAL_VOLUME=20
 #volumen máximo
-FINAL_VOLUME=50
+FINAL_VOLUME=90
 TIME_IN_MAX_SECONDS=$((TIME_IN_MAX * 60))
 
 #segundos para alcanzar el volument total
